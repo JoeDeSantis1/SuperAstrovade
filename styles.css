@@ -1,0 +1,127 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+}
+
+video {
+    width: 100%;
+    height: auto;
+}
+
+hr.solid {
+    border-top: 3px solid;   
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.features {
+    display: flex;
+    justify-content: space-between;
+}
+
+.trailer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(238, 238, 238);
+}
+
+.enemies {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.company {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    background-color: rgb(238, 238, 238);
+}
+
+.email {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+
+#infoDesc {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    margin: 20px;
+}
+
+#infoImg {
+    width: 65%;
+    height: auto;
+}
+
+#featuresDesc {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    margin: 20px;
+}
+
+#featuresImg {
+    width: 65%;
+    height: auto;
+}
+
+#enemiesText {
+    color: white;
+}
+
+#companyDesc {
+    display: flex;
+    flex-direction: column;
+
+}
+
+#imgGrid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 55%;
+    gap: 40px;
+    margin: 20px
+}
+
+#videoDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+#logo {
+    opacity: 100%;
+    width: 100%;
+    height: auto;
+    position: absolute;
+}
+
+#trailerFrame {
+    margin: 20px;
+}
+
+#companyLogo {
+    margin: 20px;
+}
+
+#emailButton {
+    margin: 20px;
+}

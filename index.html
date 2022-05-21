@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aleo:ital@1&family=Montserrat:ital,wght@1,500&family=Poppins:wght@400;500&family=Proza+Libre:ital,wght@1,600&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Super Astrovade</title>
+</head>
+<body>
+    <div id="videoDiv">
+        <img src='./Assets/PlaceholderAstrovadeLogo_new.png' alt='AstrovadeLogo' id='logo'/>
+        <video autoplay muted loop>
+            <source src="https://placeholdervideo.s3.us-east-2.amazonaws.com/NewGameplay.mp4" type="video/mp4">
+        </video>
+    </div>
+    <div class="info">
+        <div id="infoDesc">
+            <h1>Game Description</h1>
+            <hr class="solid">
+            <p>
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque 
+                laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi 
+                architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas 
+                sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione 
+                voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit 
+                amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut 
+                labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum 
+                exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi 
+                consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam 
+                nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
+            </p>
+            <iframe src="https://store.steampowered.com/widget/1710120/" frameborder="0" width="646" height="190"></iframe>
+        </div>
+        <img src="./Assets/placeholder.PNG" alt='placeholder' id='infoImg'/>
+    </div>
+    <div class="features">
+        <img src="./Assets/placeholder.PNG" alt='placeholder' id='featuresImg'/>
+        <div id="featuresDesc">
+            <h1>Features</h1>
+            <hr class="solid">
+            <p>
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque 
+                laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi 
+                architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas 
+                sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione 
+                voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit 
+                amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut 
+                labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum 
+                exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi 
+                consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam 
+                nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
+            </p>
+        </div>
+    </div>
+    <div class="trailer">
+        <h1>Trailer</h1>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen id="trailerFrame"></iframe>
+    </div>
+    <div class="enemies">
+        <h1 id="enemiesText">Enemies</h1>
+        <div id="imgGrid">
+            <img src='./Assets/enemy.png' alt='image1'/>
+            <img src='./Assets/enemy.png' alt='image2'/>
+            <img src='./Assets/enemy.png' alt='image3'/>
+            <img src='./Assets/enemy.png' alt='image4'/>
+            <img src='./Assets/enemy.png' alt='image5'/>
+            <img src='./Assets/enemy.png' alt='image6'/>
+            <img src='./Assets/enemy.png' alt='image7'/>
+            <img src='./Assets/enemy.png' alt='image8'/>
+        </div> 
+    </div>
+    <div class="company">
+        <img src="./Assets/oddgibbon_logo.png" alt="company_logo" id="companyLogo"> 
+        <div id="companyDesc">
+            <h1>More about Odd Gibbon</h1>
+            <p>
+                His Name is Matt and he has a child named Emmett. We won't talk about
+                his wife because she stole him from me.
+            </p>
+        </div>
+    </div>
+    <div class="email">
+        <h1>Email Signup</h1>
+        <h2>Sign Up for Astrovade Updates</h2>
+        <form>
+            <label for="email">Email:</label><br/>
+            <input type="text" id="email" name="email" value="Enter your Email">
+        </form>
+        <button id="emailButton">Submit</button> 
+    </div>
+</body>
+</html>
